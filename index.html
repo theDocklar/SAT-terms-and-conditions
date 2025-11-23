@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Terms & Conditions — {{COMPANY_NAME}}</title>
+  <style>
+    :root{
+      --bg:#f6f8fb; --card:#ffffff; --muted:#6b7280; --accent:#0f172a; --border:#e6e9ef;
+      font-family: Inter, system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+      color:var(--accent);
+    }
+    body{margin:0;background:var(--bg);line-height:1.6;color:var(--accent);}
+    .wrap{max-width:960px;margin:36px auto;padding:22px;}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;box-shadow:0 8px 30px rgba(16,24,40,0.04);}
+    h1{margin:0 0 8px;font-size:28px;}
+    h2{margin-top:20px;font-size:16px;}
+    p, li{color:var(--muted);margin:10px 0}
+    ul{margin:8px 0 16px 20px; color:var(--muted)}
+    .small{font-size:13px;color:var(--muted)}
+    .note{background:#fff8e6;border-left:4px solid #ffd27a;padding:12px;border-radius:6px;margin:16px 0;color:#6b4f00}
+    footer{margin-top:24px;font-size:13px;color:var(--muted)}
+    a{color:inherit;text-decoration:underline}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:6px;font-family:monospace}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card" aria-labelledby="tandc-title">
+      <h1 id="tandc-title">Terms & Conditions</h1>
+      <p class="small"><strong>Effective date:</strong> {{EFFECTIVE_DATE}}</p>
+
+      <p>Welcome to <strong>{{COMPANY_NAME}}</strong> ("Company", "we", "us", "our"). These Terms & Conditions ("Terms") govern your access to and use of our software-as-a-service platform that provides sales analytics, inventory analytics, forecasting and related tools for ecommerce stores (including integrations with platforms such as Shopify, Amazon, WooCommerce, and others) ("Service"). By creating an account, connecting a store, or using the Service, you agree to these Terms.</p>
+
+      <h2>1. Definitions</h2>
+      <ul>
+        <li><strong>User / Customer:</strong> any person or entity that registers for or uses the Service.</li>
+        <li><strong>Store Data:</strong> data you p
